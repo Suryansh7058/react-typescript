@@ -1,8 +1,11 @@
 import React from 'react';
-import './App.css';
-
+import Todos from './components/Todos';
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Todos items={['Learn ts', 'Learn React in ts', 'E-commerce Website']} />
+    </div>
+  );
 }
 
 export default App;
